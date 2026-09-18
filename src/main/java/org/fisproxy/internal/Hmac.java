@@ -5,7 +5,6 @@ import java.security.InvalidKeyException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -194,10 +193,6 @@ public final class Hmac {
             return number.longValue();
         }
         return null;
-    }
-
-    public static Map<String, Object> linked(Map<String, ?> source) {
-        return source == null ? new LinkedHashMap<>() : new LinkedHashMap<>(source);
     }
 
     private static boolean isUnreserved(int character) {

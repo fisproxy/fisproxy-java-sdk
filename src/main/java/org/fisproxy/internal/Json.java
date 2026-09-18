@@ -60,13 +60,6 @@ public final class Json {
         return Collections.unmodifiableMap(new LinkedHashMap<>(value));
     }
 
-    public static List<Object> asList(Object value) {
-        if (!(value instanceof List<?> list)) {
-            return List.of();
-        }
-        return List.copyOf(list);
-    }
-
     private static void write(Object value, StringBuilder output, int depth) {
         if (depth > MAX_DEPTH) {
             throw new IllegalArgumentException("JSON value is too deeply nested");

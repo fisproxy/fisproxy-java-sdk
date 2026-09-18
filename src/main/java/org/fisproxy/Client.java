@@ -455,8 +455,6 @@ public class Client implements AutoCloseable {
                 subjectText,
                 admissionIdText,
                 expiresAt,
-                serverTime,
-                serverEpochText,
                 parsed,
                 serverTime - System.currentTimeMillis(),
                 0L);
@@ -651,8 +649,6 @@ public class Client implements AutoCloseable {
         private final String subject;
         private final String admissionId;
         private final long expiresAt;
-        private final long serverTime;
-        private final String serverEpoch;
         private final Map<String, Object> payload;
         private final long clockOffsetMs;
         private long sequence;
@@ -663,8 +659,6 @@ public class Client implements AutoCloseable {
                 String subject,
                 String admissionId,
                 long expiresAt,
-                long serverTime,
-                String serverEpoch,
                 Map<String, Object> payload,
                 long clockOffsetMs,
                 long sequence) {
@@ -673,8 +667,6 @@ public class Client implements AutoCloseable {
             this.subject = subject;
             this.admissionId = admissionId;
             this.expiresAt = expiresAt;
-            this.serverTime = serverTime;
-            this.serverEpoch = serverEpoch;
             this.payload = payload;
             this.clockOffsetMs = clockOffsetMs;
             this.sequence = sequence;
