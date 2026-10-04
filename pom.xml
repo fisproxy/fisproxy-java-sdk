@@ -11,7 +11,7 @@
 
   <name>fisproxy</name>
   <description>Official Java SDK for the FisProxy user session API</description>
-  <url>https://github.com/nyaproxy/fisproxy-java-sdk</url>
+  <url>https://github.com/fisproxy/fisproxy-java-sdk</url>
 
   <licenses>
     <license>
@@ -28,9 +28,9 @@
   </developers>
 
   <scm>
-    <connection>scm:git:https://github.com/nyaproxy/fisproxy-java-sdk.git</connection>
-    <developerConnection>scm:git:https://github.com/nyaproxy/fisproxy-java-sdk.git</developerConnection>
-    <url>https://github.com/nyaproxy/fisproxy-java-sdk</url>
+    <connection>scm:git:https://github.com/fisproxy/fisproxy-java-sdk.git</connection>
+    <developerConnection>scm:git:https://github.com/fisproxy/fisproxy-java-sdk.git</developerConnection>
+    <url>https://github.com/fisproxy/fisproxy-java-sdk</url>
   </scm>
 
   <properties>

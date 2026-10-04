@@ -13,7 +13,7 @@
 需要 Java 17 或更高版本，无第三方运行时依赖。
 
 ```bash
-git clone https://github.com/nyaproxy/fisproxy-java-sdk.git
+git clone https://github.com/fisproxy/fisproxy-java-sdk.git
 cd fisproxy-java-sdk
 mvn -DskipTests install
 ```
@@ -30,7 +30,7 @@ mvn -DskipTests install
 
 ```xml
 <dependency>
-  <groupId>com.github.nyaproxy</groupId>
+  <groupId>com.github.fisproxy</groupId>
   <artifactId>fisproxy-java-sdk</artifactId>
   <version>v0.1.0</version>
 </dependency>

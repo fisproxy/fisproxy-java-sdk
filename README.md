@@ -15,7 +15,7 @@ Java 17+. No third-party runtime dependencies.
 Git:
 
 ```bash
-git clone https://github.com/nyaproxy/fisproxy-java-sdk.git
+git clone https://github.com/fisproxy/fisproxy-java-sdk.git
 cd fisproxy-java-sdk
 mvn -DskipTests install
 ```
@@ -38,7 +38,7 @@ JitPack (installs from this repository):
   </repository>
 </repositories>
 <dependency>
-  <groupId>com.github.nyaproxy</groupId>
+  <groupId>com.github.fisproxy</groupId>
   <artifactId>fisproxy-java-sdk</artifactId>
   <version>v0.1.0</version>
 </dependency>
@@ -48,7 +48,7 @@ Gradle:
 
 ```gradle
 repositories { maven { url 'https://jitpack.io' } }
-implementation 'com.github.nyaproxy:fisproxy-java-sdk:v0.1.0'
+implementation 'com.github.fisproxy:fisproxy-java-sdk:v0.1.0'
 ```
 
 ## Quick start
